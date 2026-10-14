@@ -30,6 +30,6 @@ public class Utileria implements ElementoDinamico{
     }
     @Override
     public void mover(String direccion, int distancia) {
-
+        System.out.println(nombre+"se desplazo a:"+direccion+":"+distancia  );
     }
 }
